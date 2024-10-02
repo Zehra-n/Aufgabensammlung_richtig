@@ -4,10 +4,19 @@
     {
         static void Main(string[] args)
         {
+            int a = 10;
+
             do
             {
-                doSomething();  
-            } while (i >= 0);
+                Console.WriteLine("Die Zahl ist grösser als 5.");
+                Console.WriteLine(new string('-', 27));
+                a--;
+                Console.WriteLine($"{a}");
+
+            } while (a > 5);
+
+            Console.WriteLine("Die Zahl ist kleiner als 5.");
         }
     }
 }
+

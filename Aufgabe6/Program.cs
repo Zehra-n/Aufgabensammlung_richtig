@@ -12,11 +12,11 @@
             {
                 for (int j = 1; j <= 10; j++)
                 {
-                    // Ausgabe des Produkts mit Formatierung
-                    Console.Write($"{i * j,4}");// {i * j,4} sorgt für eine Breite von 4 Zeichen
-                    //Console.Write($"{i * j}\t");
+
+                    Console.Write($"{i * j,4}");
+
                 }
-                Console.WriteLine(); // Neue Zeile nach jeder Reihe
+                Console.WriteLine(); 
             }
         }
     }

@@ -7,9 +7,9 @@
             Console.Write("Bitte geben Sie die Länge der Linie ein: ");
             if (int.TryParse(Console.ReadLine(), out int laenge) && laenge > 0)
             {
-                for (int i = 0; i < laenge; i++)
+                for (int i = 0; i <laenge; i++)
                 {
-                    for (int j = 0; j < laenge; j++)
+                    for (int j = 0; j <laenge; j++)
                     {
                         if (i == j)
                         {
